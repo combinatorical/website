@@ -149,7 +149,7 @@ export default function Papers() {
                                 )}
 
                                 {/* Enlaces */}
-                                <div className="flex flex-wrap gap-3 mt-4">
+                                {/* <div className="flex flex-wrap gap-3 mt-4">
                                     {pub.link && (
                                         <a
                                             href={pub.link}
@@ -170,7 +170,7 @@ export default function Papers() {
                                             arXiv
                                         </a>
                                     )}
-                                </div>
+                                </div> */}
                             </article>
                         ))}
                 </div>
