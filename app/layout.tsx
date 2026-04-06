@@ -1,4 +1,3 @@
-// @ts-expect-error Next.js handles global CSS side-effect imports
 import './global.css';
 import type { Metadata } from 'next';
 import { GeistSans } from 'geist/font/sans';
@@ -8,7 +7,6 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import Footer from './components/footer';
 import { baseUrl } from './sitemap';
-// @ts-expect-error Next.js handles global CSS side-effect imports from node_modules
 import 'katex/dist/katex.min.css';
 
 export const metadata: Metadata = {
